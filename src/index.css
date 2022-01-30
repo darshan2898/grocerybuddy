@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.g_bud {
+  width: 500px;
+  border: 2px solid rebeccapurple;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+header form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rebeccapurple;
+  border-radius: 5px;
+}
+
+header form input {
+  width: 85%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.3rem;
+  padding: 0.5em;
+  color: white;
+}
+header form button {
+  width: 20%;
+  height: 100%;
+  font-size: 1.2rem;
+  background: white;
+  color: rebeccapurple;
+  border: none;
+  outline: none;
+  margin-right: 0.3em;
+  border-radius: 25px;
+  padding: 0.3em 0.8em;
+  transition: all 0.3s ease-in-out;
+}
+
+header form button:hover {
+  color: white;
+  background: green;
+}
+
+.list_container {
+  width: 100%;
+  margin-top: 1em;
+  list-style: none;
+  padding: 0 0.3em;
+}
+
+.list_container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 0.7em;
+  color: rebeccapurple;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.list_container li .icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Ebtn,
+.Dbtn {
+  transition: all 0.3s ease-in-out;
+  color: rebeccapurple;
+  background: white;
+}
+
+.Ebtn {
+  margin-right: 1em;
+}
+
+.Ebtn:hover {
+  color: blue;
+}
+.Dbtn:hover {
+  color: red;
+}
+
+.notification {
+  width: 100%;
+  text-align: center;
+
+  text-transform: capitalize;
+  padding: 0.3em;
+  border-radius: 25px;
+  letter-spacing: 1px;
+}
+
+.green {
+  background: green;
+  color: greenyellow;
+}
+
+.red {
+  background: red;
+  color: rgb(253, 230, 234);
+}
+.blue {
+  background: blue;
+  color: rgb(223, 255, 255);
+}
